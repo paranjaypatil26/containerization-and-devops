@@ -42,7 +42,7 @@ The official Nginx image is downloaded successfully.
 
 📷 Screenshot:
 
-![Pull Nginx Image](screenshot/img1.png)
+![Pull Nginx Image](screenshot/image1.png)
 
 ---
 
@@ -59,7 +59,7 @@ docker run -d -p 8081:80 nginx
 
 📷 Screenshot:
 
-![Run Container](screenshot/img2.png)
+![Run Container](screenshot/image2.png)
 
 ---
 
@@ -74,7 +74,7 @@ Displays container ID, image name, status, ports, and container name.
 
 📷 Screenshot:
 
-![Docker PS](screenshot/img3.png)
+![Docker PS](screenshot/image3.png)
 
 ---
 
@@ -91,7 +91,7 @@ The default *Welcome to nginx!* page is displayed.
 
 📷 Screenshot:
 
-![Nginx Browser](screenshot/img4.png)
+![Nginx Browser](screenshot/image4.png)
 
 ---
 
@@ -103,7 +103,7 @@ docker stop <container_id>
 
 📷 Screenshot:
 
-![Docker Stop](screenshot/img5.png)
+![Docker Stop](screenshot/image5.png)
 
 ---
 
@@ -115,7 +115,7 @@ docker rm <container_id>
 
 📷 Screenshot:
 
-![Docker Remove](screenshot/img6.png)
+![Docker Remove](screenshot/image6.png)
 
 ---
 
@@ -127,7 +127,7 @@ docker rmi nginx
 
 📷 Screenshot:
 
-![Docker RMI](screenshot/img7.png)
+![Docker RMI](screenshot/image7.png)
 
 ---
 
@@ -162,21 +162,4 @@ Docker provides lightweight and efficient application deployment using container
 
 ---
 
-## 📂 Repository Structure
 
-```
-exp2/
-│
-├── screenshot/
-│   ├── img1.png
-│   ├── img2.png
-│   ├── img3.png
-│   ├── img4.png
-│   ├── img5.png
-│   ├── img6.png
-│   └── img7.png
-│
-└── README.md
-```
-
----
