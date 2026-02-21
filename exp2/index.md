@@ -59,7 +59,7 @@ docker run -d -p 8081:80 nginx
 
 📷 Screenshot:
 
-![Run Container](screenshot/imgage2.png)
+![Run Container](screenshot/image2.png)
 
 ---
 
@@ -162,21 +162,3 @@ Docker provides lightweight and efficient application deployment using container
 
 ---
 
-## 📂 Repository Structure
-
-```
-exp2/
-│
-├── screenshot/
-│   ├── img1.png
-│   ├── img2.png
-│   ├── img3.png
-│   ├── img4.png
-│   ├── img5.png
-│   ├── img6.png
-│   └── img7.png
-│
-└── README.md
-```
-
----
