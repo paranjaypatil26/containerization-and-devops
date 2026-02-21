@@ -22,6 +22,9 @@ Containerization-and-DevOps
 ├── 📁 Experiment 2  
 │   └── Docker Installation and Running Containers  
 │   → [Open Experiment 2](./exp2/)  
+├── 📁 Experiment 3  
+│   └── Building and Comparing Nginx Images (Official vs Ubuntu vs Alpine)  
+│   → [Open Experiment 3](./exp3/) 
 
 ---
 
