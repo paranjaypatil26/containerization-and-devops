@@ -11,7 +11,7 @@
 
     <properties>
         <sonar.projectKey>calculator-project</sonar.projectKey>
-        <sonar.host.url>http://localhost:9000</sonar.host.url>
+        <sonar.host.url>http://host.docker.internal:9000</sonar.host.url>
         <sonar.login>squ_5a64ad3e2174aed2953f110dbe6faf9f33e77c1a</sonar.login>
     </properties>
 
