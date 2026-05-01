@@ -24,6 +24,7 @@ containerization-and-devops/
 ├── exp6/   → Docker and Docker Compose Applications
 ├── exp9/   → Ansible Automation using Docker Containers
 ├── exp10/  → SonarQube Integration with Jenkins
+├── exp12/  → Kubernetes
 ```
 
 ---
@@ -90,6 +91,13 @@ Ansible Automation using Docker Containers
 
 SonarQube Integration with Jenkins
 [Open Experiment 10](./exp10/)
+
+---
+
+### Experiment 12
+
+Kubernetes
+[Open Experiment 12](./exp12/)
 
 ---
 
