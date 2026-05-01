@@ -34,7 +34,7 @@ source ansible-env/bin/activate
 pip install ansible
 ```
 
-![Step 1](ex9img1.png)
+![Step 1](screenshots/ex9img1.png)
 
 ---
 
@@ -44,7 +44,7 @@ pip install ansible
 ansible --version
 ```
 
-![Step 2](ex9img13.png)
+![Step 2](screenshots/ex9img13.png)
 
 ---
 
@@ -54,7 +54,7 @@ ansible --version
 ansible localhost -m ping
 ```
 
-![Step 3](ex9img2.png)
+![Step 3](screenshots/ex9img2.png)
 
 ---
 
@@ -64,7 +64,7 @@ ansible localhost -m ping
 ssh-keygen -t rsa -b 4096
 ```
 
-![Step 4](ex9img3.png)
+![Step 4](screenshots/ex9img3.png)
 
 ---
 
@@ -74,7 +74,7 @@ ssh-keygen -t rsa -b 4096
 docker build -t ubuntu-server .
 ```
 
-![Step 5](ex9img5.png)
+![Step 5](screenshots/ex9img5.png)
 
 ---
 
@@ -84,7 +84,7 @@ docker build -t ubuntu-server .
 docker run -d -p 2222:22 --name ssh-test-server ubuntu-server
 ```
 
-![Step 6](ex9img6.png)
+![Step 6](screenshots/ex9img6.png)
 
 ---
 
@@ -94,7 +94,7 @@ docker run -d -p 2222:22 --name ssh-test-server ubuntu-server
 docker inspect -f '{{range.NetworkSettings.Networks}}{{.IPAddress}}{{end}}' ssh-test-server
 ```
 
-![Step 7](ex9img7.png)
+![Step 7](screenshots/ex9img7.png)
 
 ---
 
@@ -104,7 +104,7 @@ docker inspect -f '{{range.NetworkSettings.Networks}}{{.IPAddress}}{{end}}' ssh-
 ssh root@localhost -p 2222
 ```
 
-![Step 8](ex9img8.png)
+![Step 8](screenshots/ex9img8.png)
 
 ---
 
@@ -116,7 +116,7 @@ for i in {1..4}; do
 done
 ```
 
-![Step 9](ex9img9.png)
+![Step 9](screenshots/ex9img9.png)
 
 ---
 
@@ -137,7 +137,7 @@ ansible_python_interpreter=/usr/bin/python3
 EOF
 ```
 
-![Step 10](ex9img10.png)
+![Step 10](screenshots/ex9img10.png)
 
 ---
 
@@ -147,7 +147,7 @@ EOF
 ansible all -i inventory.ini -m ping
 ```
 
-![Step 11](ex9img11.png)
+![Step 11](screenshots/ex9img11.png)
 
 ---
 
@@ -182,7 +182,7 @@ ansible all -i inventory.ini -m ping
 ansible-playbook -i inventory.ini playbook1.yml
 ```
 
-![Step 12](ex9img12.png)
+![Step 12](screenshots/ex9img12.png)
 
 ---
 
@@ -192,7 +192,7 @@ ansible-playbook -i inventory.ini playbook1.yml
 ansible all -i inventory.ini -m command -a "cat /root/ansible_test.txt"
 ```
 
-![Step 13](ex9img4.png)
+![Step 13](screenshots/ex9img4.png)
 
 ---
 
@@ -201,4 +201,3 @@ ansible all -i inventory.ini -m command -a "cat /root/ansible_test.txt"
 Successfully automated multiple Docker containers using Ansible. All servers were configured and verified using playbook execution.
 
 ---
-
