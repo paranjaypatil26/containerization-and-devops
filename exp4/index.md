@@ -44,7 +44,7 @@ docker build -t my-flask-app .
 
 ### Output
 
-![Build Image](../screenshots/ex4img3.png)
+![Build Image](screenshots/ex4img3.png)
 
 ---
 
@@ -56,7 +56,7 @@ docker images
 
 ### Output
 
-![Docker Images](../screenshots/ex4img4.png)
+![Docker Images](screenshots/ex4img4.png)
 
 ---
 
@@ -69,7 +69,7 @@ docker build -t my-flask-app:latest -t my-flask-app:1.0 .
 
 ### Output
 
-![Tagging Image](../screenshots/ex4img5.png)
+![Tagging Image](screenshots/ex4img5.png)
 
 ---
 
@@ -81,7 +81,7 @@ docker build -t username/my-flask-app:1.0 .
 
 ### Output
 
-![Docker Hub Tag](../screenshots/ex4img6.png)
+![Docker Hub Tag](screenshots/ex4img6.png)
 
 ---
 
@@ -93,7 +93,7 @@ docker history my-flask-app
 
 ### Output
 
-![Docker History](../screenshots/ex4img10.png)
+![Docker History](screenshots/ex4img10.png)
 
 ---
 
@@ -105,7 +105,7 @@ docker inspect my-flask-app
 
 ### Output
 
-![Docker Inspect](../screenshots/ex4img11.png)
+![Docker Inspect](screenshots/ex4img11.png)
 
 ---
 
@@ -117,7 +117,7 @@ docker run -d -p 5000:5000 --name flask-container my-flask-app
 
 ### Output
 
-![Run Container](../screenshots/ex4img12.png)
+![Run Container](screenshots/ex4img12.png)
 
 ---
 
@@ -133,7 +133,7 @@ docker rm flask-container
 
 ### Output
 
-![Container Commands](../screenshots/ex4img13.png)
+![Container Commands](screenshots/ex4img13.png)
 
 ---
 
