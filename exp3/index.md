@@ -26,7 +26,7 @@ docker pull nginx:latest
 
 Screenshot:
 
-![Pull Nginx](screenshots/image1.png)
+![Pull Nginx](screenshot/image1.png)
 
 ---
 
@@ -38,7 +38,7 @@ docker run -d --name nginx-official -p 8080:80 nginx
 
 Screenshot:
 
-![Run Official Container](screenshots/image2.png)
+![Run Official Container](screenshot/image2.png)
 
 ---
 
@@ -50,7 +50,7 @@ docker images nginx
 
 Screenshot:
 
-![Official Image Size](screenshots/image3.png)
+![Official Image Size](screenshot/image3.png)
 
 ---
 
@@ -82,7 +82,7 @@ docker build -t nginx-ubuntu .
 
 Screenshot:
 
-![Ubuntu Build](screenshots/image4.png)
+![Ubuntu Build](screenshot/image4.png)
 
 #### Run Container
 
@@ -92,7 +92,7 @@ docker run -d --name nginx-ubuntu -p 8081:80 nginx-ubuntu
 
 Screenshot:
 
-![Ubuntu Container](screenshots/image5.png)
+![Ubuntu Container](screenshot/image5.png)
 
 #### Check Image Size
 
@@ -102,7 +102,7 @@ docker images nginx-ubuntu
 
 Screenshot:
 
-![Ubuntu Image Size](screenshots/image6.png)
+![Ubuntu Image Size](screenshot/image6.png)
 
 ---
 
@@ -131,7 +131,7 @@ docker build -t nginx-alpine .
 
 Screenshot:
 
-![Alpine Build](screenshots/image7.png)
+![Alpine Build](screenshot/image7.png)
 
 #### Run Container
 
@@ -141,7 +141,7 @@ docker run -d --name nginx-alpine -p 8082:80 nginx-alpine
 
 Screenshot:
 
-![Alpine Container](screenshots/image8.png)
+![Alpine Container](screenshot/image8.png)
 
 #### Check Image Size
 
@@ -151,7 +151,7 @@ docker images nginx-alpine
 
 Screenshot:
 
-![Alpine Image Size](screenshots/image9.png)
+![Alpine Image Size](screenshot/image9.png)
 
 ---
 
@@ -163,7 +163,7 @@ docker images | grep nginx
 
 Screenshot:
 
-![Compare Images](screenshots/image10.png)
+![Compare Images](screenshot/image10.png)
 
 ---
 
@@ -177,7 +177,7 @@ docker history nginx-alpine
 
 Screenshot:
 
-![Docker History](screenshots/image11.png)
+![Docker History](screenshot/image11.png)
 
 ---
 
